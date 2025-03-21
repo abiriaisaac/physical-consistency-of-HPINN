@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
 Created on Fri Mar 21 11:29:48 2025
-
-@author: abiri
+Beijing Institute of Technology
+@author: abiria Isaac
 """
 
 import numpy as np
