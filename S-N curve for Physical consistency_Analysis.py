@@ -21,7 +21,7 @@ plt.rcParams.update({
 
 #data = pd.read_excel('HPINN_Test_Results_synthetic_Aluminium.xlsx')  # Adjust to your file location
 #data = pd.read_excel('HPINN_Test_Results_synthetic_Titanium.xlsx')  # Adjust to your file location
-data = pd.read_excel('HPINN_Test_Results_synthetic_chapter5.xlsx')  # Adjust to your file location
+data = pd.read_excel('HPINN_Test_Results_synthetic_hpinn_shap.xlsx')  # Adjust to your file location
 stress = data['stress'].values                      # Applied stress (σ)
 actual_cycles = data['experimental_cycles'].values        # Actual fatigue life (Nf)
 predicted_cycles_pinn = data['HPINN'].values  # Predicted fatigue life (PINN)
